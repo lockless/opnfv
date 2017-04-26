@@ -4,12 +4,12 @@
 .. SPDX-License-Identifier: CC-BY-4.0
 .. (c) Open Platform for NFV Project, Inc. and its contributors
 
-===============
-OPNFV Overview
-===============
+=============
+OPNFV 概述
+=============
 
-Introduction
-============
+绪论
+=====
 
 Network Functions Virtualization (NFV) is transforming the networking industry via
 software-defined infrastructures and open source is the proven method for quickly developing
@@ -46,8 +46,8 @@ NFV services by increasing performance and power efficiency improving reliabilit
 availability and serviceability, and delivering comprehensive platform instrumentation.
 
 
-OPNFV Platform Architecture
-===========================
+OPNFV 平台架构
+================
 
 The OPNFV project addresses a number of aspects in the development of a consistent virtualisation
 platform including common hardware requirements, software architecture, MANO and applications.
@@ -55,7 +55,7 @@ platform including common hardware requirements, software architecture, MANO and
 
 OPNFV Platform Overview Diagram
 
-.. image:: ../images/opnfvplatformgraphic.png
+.. image:: ./img/opnfvplatformgraphic.png
    :alt: Overview infographic of the opnfv platform and projects.
 
 
@@ -67,8 +67,8 @@ into the following basic building blocks:
 * MANO: through the MANO working group and associated projects
 * Applications: which affect all other areas and drive requirements for OPNFV
 
-OPNFV Lab Infrastructure
-========================
+OPNFV 实验室基础设施
+======================
 
 The infrastructure working group oversees such topics as lab management, workflow,
 definitions, metrics and tools for OPNFV infrastructure.
@@ -91,8 +91,8 @@ Future lab capabilities will include the ability easily automate deploy and test
 OPNFV install scenario in any lab environment as well as on a nested "lab as a service"
 virtual infrastructure.
 
-OPNFV Software Platform Architecture
-====================================
+OPNFV 软件平台架构
+====================
 
 The OPNFV software platform is comprised exclusively of open source implementations of
 platform component pieces.  OPNFV is able to draw from the rich ecosystem of NFV related
@@ -103,9 +103,9 @@ While the composition of the OPNFV software platform is highly complex and const
 projects and components, a subset of these projects gain the most attention from the OPNFV community
 to drive the development of new technologies and capabilities.
 
----------------------------------
-Virtual Infrastructure Management
----------------------------------
+----------------------
+虚拟基础设施管理
+----------------------
 
 OPNFV derives it's virtual infrastructure management from one of our largest upstream ecosystems
 OpenStack.  OpenStack provides a complete reference cloud management system and associated technologies.
@@ -116,19 +116,19 @@ composition may vary depending on the installer and scenario.
 For details on the scenarios available in OPNFV and the specific composition of components
 refer to the :ref:`OPNFV User Guide & Configuration Guide <opnfv-user-config>`
 
------------------
-Operating Systems
------------------
+------------
+操作系统
+------------
 
 OPNFV currently uses Linux on all target machines, this can include Ubuntu, Centos or SUSE linux. The
 specific version of Linux used for any deployment is documented in the installation guide.
 
------------------------
-Networking Technologies
------------------------
+------------
+网络技术
+------------
 
-SDN Controllers
----------------
+SDN 控制器
+------------
 
 OPNFV, as an NFV focused project, has a significant investment on networking technologies
 and provides a broad variety of integrated open source reference solutions.  The diversity
@@ -148,8 +148,8 @@ being worked on by the community during this release of OPNFV include:
 
 .. OpenContrail SDN controller is planned to be supported in the next release.
 
-Data Plane
-----------
+数据面
+---------
 
 OPNFV extends Linux virtual networking capabilities by using virtual switching
 and routing components. The OPNFV community proactively engages with these source
@@ -163,8 +163,8 @@ networks.
   massive network automation through programmatic extension, while still supporting standard
   management interfaces and protocols.
 
-Deployment Architecture
-=======================
+部署架构
+==========
 
 A typical OPNFV deployment starts with three controller nodes running in a high availability
 configuration including control plane components from OpenStack, SDN, etc. and a minimum
@@ -182,8 +182,8 @@ that then installs OpenStack and other components on the controller nodes and co
 See the :ref:`OPNFV User Guide & Configuration Guide <opnfv-user-config>` for more details.
 
 
-The OPNFV Testing Ecosystem
-===========================
+OPNFV 测试生态系统
+====================
 
 The OPNFV community has set out to address the needs of virtualization in the carrier
 network and as such platform validation and measurements are a cornerstone to the
@@ -195,11 +195,11 @@ platform validation. This required the integration of a variety of testing frame
 systems, real time and automated analysis of results, storage and publication of key facts for
 each run as shown in the following diagram.
 
-.. image:: ../images/OPNFV_testing_working_group.png
+.. image:: ./img/OPNFV_testing_working_group.png
   :alt: Overview infographic of the OPNFV testing Ecosystem
 
-Release Verification
-====================
+发布验证
+===========
 
 The OPNFV community relies on its testing community to establish release criteria for each OPNFV
 release. Each release cycle the testing criteria become more stringent and better representative
@@ -248,8 +248,8 @@ There are two types of test cases in Yardstick:
 * OPNFV feature test cases include basic telecom feature testing from OPNFV projects;
   for example nfv-kvm, sfc, ipv6, Parser, Availability and SDN VPN
 
-System Evaluation and compliance testing
-========================================
+系统评估和合格测试
+======================
 
 The OPNFV community is developing a set of test suites intended to evaluate a set of reference
 behaviors and capabilities for NFV systems developed externally from the OPNFV ecosystem to
@@ -263,8 +263,8 @@ and will provide a preliminary methodology for the Danube release. Work will con
 develop these test cases to establish a stand alone compliance evaluation solution
 in future releases.
 
-Additional Testing
-==================
+附加测试
+==========
 
 Besides the test suites and cases for release verification, additional testing is performed to validate
 specific features or characteristics of the OPNFV platform.
@@ -283,9 +283,9 @@ performance of the NFVI including switching technology, physical and virtual net
 The provided test cases with network topologies can be customized while also allowing individual
 versions of Operating System, vSwitch and hypervisor to be specified.
 
------------
-Bottlenecks
------------
+--------
+瓶颈
+--------
 
 Bottlenecks provides a framework to find system limitations and bottlenecks, providing
 root cause isolation capabilities to facilitate system evaluation.
