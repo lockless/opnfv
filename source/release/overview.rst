@@ -11,39 +11,22 @@ OPNFV 概述
 绪论
 =====
 
-Network Functions Virtualization (NFV) is transforming the networking industry via
-software-defined infrastructures and open source is the proven method for quickly developing
-software for commercial products and services that can move markets.
-Open Platform for NFV (OPNFV) facilitates the development and evolution of NFV
-components across various open source ecosystems. Through system level integration,
-deployment and testing, OPNFV constructs a reference NFV platform to accelerate the
-transformation of enterprise and service provider networks.
-As an open source project, OPNFV is uniquely positioned to bring together the work
-of standards bodies, open source communities, service providers and commercial suppliers to deliver
-a de facto NFV platform for the industry.
+网络功能虚拟化（NFV）正在通过软件定义的基础架构改变网络行业，开源是快速开发可以推向市场的商业产品和服务软件的方法。
+NFP开放平台（OPNVF）有助于各种开源生态系统的NFV组件的开发和演进。
+通过系统集成，部署和测试，OPNFV具有独特的优势，将标准机构，开源社区，服务提供商和商业供应商的工作聚集在一起，
+为行业提供一个事实上的NFV平台。
 
-By integrating components from upstream projects, the community is able to conduct performance
-and use case-based testing on a variety of solutions to ensure the platform’s suitability for
-NFV use cases. OPNFV also works upstream with other open source communities to bring contributions
-and learnings from its work directly to those communities in the form of blueprints, patches, bugs,
-and new code.
+通过集成来自上游项目的组件，社区能够对各种解决方案进行性能和用例检测，以确保平台适用于NFV使用案例。
+OPNFV还与其他开源社区一起工作，以蓝图、补丁、bug及新代码的形式将贡献和学习代入这些社区。
 
-OPNFV initially focused on building NFV Infrastructure (NFVI) and Virtualised Infrastructure
-Management (VIM) by integrating components from upstream projects such as OpenDaylight,
-OpenStack, Ceph Storage, KVM, Open vSwitch, and Linux.
-More recently, OPNFV has extended its portfolio of forwarding solutions to include fd.io and ODP,
-is able to run on both Intel and ARM commercial and white-box hardware, support VM, Container and
-BareMetal workloads, and includes Management and Network Orchestration MANO components primarily
-for application composition and management in the Danube release.
+OPNFV最初专注于通过集成来自 OpenDaylight，OpenStack，Ceph Storage，KVM，OpenvSwitch 和 Linux等上游项目的组件来构建NFV基础设施（NFVI）和虚拟化基础架构管理（VIM）。
+最近，OPNFV扩展了其转发解决方案组合，包括fd.io和ODP，能够在英特尔和ARM商业和白盒硬件上运行，支持VM，Container和BareMetal工作负载，
+还包括管理和网络管理编排MANO组件主要用于Danube版本中的应用组合和管理。
 
-These capabilities, along with application programmable interfaces (APIs) to other NFV
-elements, form the basic infrastructure required for Virtualized Network Functions (VNF)
-and MANO components.
+这些功能以及与其他NFV元件的应用程序可编程接口（API）构成了虚拟网络功能（VNF）和MANO组件所需的基本架构。
 
-Concentrating on these components while also considering proposed projects on additional
-topics (such as the MANO components and applications themselves), OPNFV aims to enhance
-NFV services by increasing performance and power efficiency improving reliability,
-availability and serviceability, and delivering comprehensive platform instrumentation.
+重点关注这些组件，同时考虑关于附加主题的拟议项目（如MANO组件和应用程序本身），
+OPNFV旨在通过提高性能和功率效率来提高可靠性，可用性和可服务性，并提供全面的平台仪器来加强NFV服务。
 
 
 OPNFV 平台架构
