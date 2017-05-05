@@ -32,9 +32,7 @@ OPNFV旨在通过提高性能和功率效率来提高可靠性，可用性和可
 OPNFV 平台架构
 ================
 
-The OPNFV project addresses a number of aspects in the development of a consistent virtualisation
-platform including common hardware requirements, software architecture, MANO and applications.
-
+OPNFV项目涉及了开发一个一致性虚拟化平台的多个方面，包括常见的硬件需求、软件架构、MANO及应用程序等。
 
 OPNFV Platform Overview Diagram
 
@@ -42,13 +40,12 @@ OPNFV Platform Overview Diagram
    :alt: Overview infographic of the opnfv platform and projects.
 
 
-To address these areas effectively, the OPNFV platform architecture can be decomposed
-into the following basic building blocks:
+为了有效处理这些领域问题，OPNFV平台架构可以分解成一下基本构件：
 
-* Hardware: with the Infra working group, Pharos project and associated activities
-* Software Platform: through the platform integration and deployment projects
-* MANO: through the MANO working group and associated projects
-* Applications: which affect all other areas and drive requirements for OPNFV
+* 硬件: Infra工作组，Pharos项目及相关活动
+* 软件平台: 通过平台整合和部署项目
+* MANO: MANO工作组及相关项目
+* 应用程序: 影响所有其他领域和驱动OPNFV需求
 
 OPNFV 实验室基础设施
 ======================
